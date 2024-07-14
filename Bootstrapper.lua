@@ -88,7 +88,7 @@ local function TGVDIW_fake_script() -- MainFrame.LocalScript
 	local Status = Gui.Frame.Status
 	
 	function Universal()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/Snxdfer/backuptest/main/test.lua"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Snxdfer/TetrisHub-Main/main/main.lua"))()
 	end
 		Status.Text = "Universal"
 		wait(4)
